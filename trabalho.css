@@ -1,0 +1,184 @@
+body {
+    background-color:rgb(255, 249, 249);
+    box-sizing: border-box;
+}
+
+/*header*/
+header {
+ height:90px;
+ background: cadetblue;
+ border-bottom: 5px dashed black;
+ line-height: 80px;
+}
+
+.logo {
+    text-transform: uppercase;
+    color:white;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px dashed;
+}
+.logo b {
+    font-size: 15px;
+    color:rgb(255, 152, 17)
+}
+
+.opcoes {
+    color: white;
+    height:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    height: 40px;
+}
+
+/* personalização das opções*/
+#a_opcao {
+    height: 50px;
+}
+
+#um{
+    height: 10px;
+    display:inline-flex;/* orientou todas as opcoes ao meio*/
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.opcoes #salvar #um:hover {
+   color:rgb(255, 152, 17);
+   border: 1px solid none;
+   border-radius: 10px;
+   background-color: rgb(77, 137, 139);
+}
+
+.opcoes #personalizar #um:hover {
+    color:rgb(255, 152, 17);
+    border: 1px solid none;
+   border-radius: 10px;
+   background-color: rgb(77, 137, 139);
+
+ }
+
+.opcoes #configuracoes #um:hover {
+    color: rgb(255, 152, 17);
+    border: 1px solid none;
+   border-radius: 10px;
+   background-color: rgb(77, 137, 139);
+ }
+
+.opcoes .home:hover {
+    color:rgb(255, 152, 17);
+   border: 1px solid none;
+   border-radius: 10px;
+   background-color: rgb(77, 137, 139);
+}
+
+.opcoes .home {
+    text-decoration:none;
+    color: white;
+}
+
+/*main*/
+.dropdown-item {
+    font-size: 12px;
+    justify-content: center;
+}
+.definicao {
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(124, 187, 240);
+  }
+.paragrafo_um {
+    text-align: justify;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    width: 800px;
+    margin: auto;
+  }
+.paragrafo_dois{
+    text-align: center;
+}
+.espaco {
+    height: 75px;
+  }
+.tabela {
+    margin: auto;
+    border-top: 8px dotted black ;
+    background: brown;
+    font-size: 18px;
+    text-align: center;
+}
+.th-linha {
+    background-color:rgb(221, 118, 115);
+    color: white;
+}
+.th-coluna {
+    color: white;
+}
+.tabela b {
+    font-size: 12px;
+}
+.Apagar_gerar {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin: auto;
+    background-color:;
+}
+.logo_imagem{
+    border:none;
+}
+.imagem_ilustrativa{
+    border: 1px solid black;
+    width: 33%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 30px; 
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.sujestao_animais{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+.sujestao_animais p{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid rgb(173, 172, 172);
+}
+
+/*footer*/
+
+footer {
+    height:150px;
+    background: black;
+}
+footer .logo_rodape{
+    padding-top: 35px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#instagram {
+    margin-left: 400px;
+}
+
